@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+}
+
+
+ul {
+    list-style: square;
+}
+
+
+ol {
+    list-style: lower-roman;
+}

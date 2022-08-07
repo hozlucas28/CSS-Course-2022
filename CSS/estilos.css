@@ -1,0 +1,11 @@
+body { /* Todos los elementos de la página */
+    background-color: green; /* Fondo */
+    font-family: sans-serif; /* Tipografía */
+}
+
+
+h1 { /* Etiqueta h1 */
+    color: blue; /* Color */
+    font-size:  20px; /* Tamaño */
+    text-align: center; /* Alineación */
+}

@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.box {
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+.box_parent {
+    margin: 20px;
+    background-color: lightseagreen;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+
+.position {
+    background-color: lightcoral;
+    position: absolute;
+}
