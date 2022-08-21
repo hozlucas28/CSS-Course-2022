@@ -1,28 +1,35 @@
 
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 
+
+/* -------------------------------------------------------------------------- */
+/*                             Contenido Principal                            */
+/* -------------------------------------------------------------------------- */
+
 .box {
-    background-color: royalblue;
+    margin: 20px;
     width: 200px;
     height: 200px;
-    margin: 20px;
+    background-color: royalblue;
 }
 
-
-.box_parent {
+.box-parent {
     margin: 20px;
-    background-color: lightseagreen;
     width: 500px;
     height: 500px;
     position: relative;
+    background-color: lightseagreen;
 }
 
-
 .position {
-    background-color: lightcoral;
     position: absolute;
+    background-color: lightcoral;
 }

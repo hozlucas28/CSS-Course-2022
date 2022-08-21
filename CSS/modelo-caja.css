@@ -1,0 +1,67 @@
+
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
+* {
+    margin: 0px; /* Margen de la página */
+    padding: 0px; /* Sangría entre el borde y los elementos de la página */
+    box-sizing: border-box; /* Autoajusta el contenido de las cajas a la página */
+}
+
+body {
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  ETIQUETAS                                 */
+/* -------------------------------------------------------------------------- */
+
+main {
+    padding: 20px 20px 35px 35px;
+    width: 100%;
+    height: 300px;
+    border: 10px solid gray; /* Tamaño y color del borde de la caja */
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 Encabezado                                 */
+/* -------------------------------------------------------------------------- */
+
+.menu {
+    margin: 0px;
+    padding: 10px 0px;
+    background: #13a4a4;
+}
+
+.menu-nav {
+    margin: 0px;
+    padding-left: 5px;
+    list-style: none;
+}
+
+.menu-nav-item {
+    display: inline-block;
+}
+
+.menu-nav-item a { 
+    color: white;
+    text-decoration: none;
+}
+
+.menu-nav-item a:active {
+    color: chartreuse;
+}
+
+.menu-nav-item a:hover {
+    color: red;
+}
+
+.menu-nav-item a::after {
+    content: " | "; 
+}

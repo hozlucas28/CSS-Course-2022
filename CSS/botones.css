@@ -1,50 +1,29 @@
 
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
 body {
-    background-color: #f2f2f2;
     font-family: Arial;
+    background-color: #f2f2f2;
 }
 
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  ETIQUETAS                                 */
+/* -------------------------------------------------------------------------- */
 
 div {
     margin: 20px 0px;
 }
 
 
-.button {
-    background-color: #530d58;
-    color: #ffff;
-    font-size: 16px;
-    padding: 15px 20px;
-    margin: 0px 10px;
-    border-style: none;
-}
 
+/* -------------------------------------------------------------------------- */
+/*                                  PÚBLICOS                                  */
+/* -------------------------------------------------------------------------- */
 
-.button:hover {
-    opacity: 0.8;
-    cursor: pointer; /* Transformación del cursor al pasar por encima */
-}
-
-
-/* Tamaños */
-.small {
-    font-size: 14px;
-    padding: 10px 15px;
-}
-
-.medium {
-    font-size: 16px;
-    padding: 15px 20px;
-}
-
-.big {
-    font-size: 18px;
-    padding: 20px 25px;
-}
-/*---------*/
-
-
-/* Colores */
 .blue {
     background-color: blue;
 }
@@ -56,11 +35,46 @@ div {
 .orange {
     background-color: orange;
 }
-/*---------*/
 
 
-/* Efectos */
-.border_rad {
-    border-radius: 30px; /* Bordes de los botones */
+
+/* -------------------------------------------------------------------------- */
+/*                             Contenido Principal                            */
+/* -------------------------------------------------------------------------- */
+
+.button {
+    margin: 0px 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #ffff;
+    border-style: none;
+    background-color: #530d58;
 }
-/*---------*/
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer; /* Transforma el cursor, al pasar por encima */
+}
+
+/* --------------------------------- Tamaños -------------------------------- */
+
+.big {
+    padding: 20px 25px;
+    font-size: 18px;
+}
+
+.medium {
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.small {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+/* --------------------------------- Bordes --------------------------------- */
+
+.border-rad {
+    border-radius: 30px;
+}

@@ -1,0 +1,42 @@
+
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  ETIQUETAS                                 */
+/* -------------------------------------------------------------------------- */
+
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+p {
+    font-size: 25px;
+    word-spacing: 10px; /* Espaciado entre palabras */
+    line-height: 1.7; /* Interlineado */
+    font-style: italic; /* Estilo del texto */
+    font-weight: bold; /* Negrita */
+    text-align: justify; /* Alineación justificada */
+    text-indent: 40px; /* Identación */
+    text-transform: lowercase; /* Texto del parrafo en minúsculas */
+    text-shadow: 4px 3px 2px rgba(65, 105, 225, 0.5); /* Sombra [→, ↓, opacidad] */
+}
+
+a {
+    font-size: 20px;
+    letter-spacing: 3px; /* Espaciado entre letras */
+    text-decoration: none;
+    text-transform: capitalize; /* Primera letra en mayúscula */
+}
+
+a:hover {
+    text-decoration: underline;
+}

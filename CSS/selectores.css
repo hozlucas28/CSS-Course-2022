@@ -1,34 +1,50 @@
 
-body { /* Modifica todos los elementos de la página */
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
+body { /* Modifica todos los elementos de la caja */
     color: blue;
 }
 
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  ETIQUETAS                                 */
+/* -------------------------------------------------------------------------- */
 
 h1, h2 { /* Modifica más de un elemento */
     color: red;
 }
 
 
+
+/* -------------------------------------------------------------------------- */
+/*                             Contenido Principal                            */
+/* -------------------------------------------------------------------------- */
+
 /*---------------------------------------------------------
-    [X] Modificando elementos específicos por clases
+    [X] Modifica elementos específicos por Ids.
+    - El elemento puede tener un único Id.
+---------------------------------------------------------*/
+
+#Subtittle {
+    color: aqua;
+}
+
+/*---------------------------------------------------------
+    [X] Modifica elementos específicos por clases.
     - El elemento puede tener más de una clase asignada.
 ---------------------------------------------------------*/
+
 .p1 { 
     color: brown;
 }
 
 .p2 {
-    color: purple;
     font-size: 24px;
+    color: purple;
 }
-/*-------------------------------------------------------*/
 
 
-/*---------------------------------------------------------
-    [X] Modificando elementos específicos por Ids
-    - El elemento puede tener un único Id.
----------------------------------------------------------*/
-#Subtittle {
-    color: aqua;
-}
-/*-------------------------------------------------------*/
+

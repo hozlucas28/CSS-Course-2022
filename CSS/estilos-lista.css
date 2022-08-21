@@ -3,9 +3,8 @@
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
-body { /* Todos los elementos de la página */
-    font-family: sans-serif; /* Tipografía */
-    background-color: green; /* Fondo */
+body {
+    font-family: Arial;
 }
 
 
@@ -14,8 +13,11 @@ body { /* Todos los elementos de la página */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-h1 { /* Etiquetas h1 */
-    font-size:  20px; /* Tamaño */
-    text-align: center; /* Alineación */
-    color: blue; /* Color */
+ol {
+    list-style: lower-roman;
 }
+
+ul {
+    list-style: square;
+}
+

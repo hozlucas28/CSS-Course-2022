@@ -17,22 +17,22 @@
 
 /* ---------------------------------- Blog ---------------------------------- */
 
-.main_containerBlog img {
+.main-containerBlog img {
   padding: 0px 50px 40px;
   width: 100%;
   display: inline-block;
 }
 
-.main_containerBlog_article {
+.main-containerBlog-article {
   padding: 0px 80px 40px;
 }
 
-.main_containerBlog_article h4 {
+.main-containerBlog-article h4 {
   padding: 20px 0px;
   border-bottom: 1px solid #cdd2da;
 }
 
-.main_containerBlog_article h1 {
+.main-containerBlog-article h1 {
   margin: 20px 0px;
   font-size: 35px;
 }
@@ -51,34 +51,34 @@
   background-color: #e6e9ed;
 }
 
-.contactSection_ways {
+.contactSection-ways {
   margin: 20px 0px 20px 20px;
   display: flex;
 }
 
-.contactSection_ways img {
+.contactSection-ways img {
   padding: 10px;
   width: 100px;
   display: inline-block;
 }
 
-.contactSection_ways_info {
+.contactSection-ways-info {
   padding: 20px 0px;
   width: 300px;
 }
 
-.contactSection_ways_info a {
+.contactSection-ways-info a {
   padding-bottom: 5px;
   color: black;
   border-bottom: 1px solid black;
   text-decoration: none;
 }
 
-.contactSection_ways_info a:hover {
+.contactSection-ways-info a:hover {
   opacity: 0.5;
 }
 
-.contactSection_ways_info p {
+.contactSection-ways-info p {
   margin-top: 10px;
 }
 
@@ -98,17 +98,17 @@
   background-color: #22272d;
 }
 
-.footer_content {
+.footer-content {
   color: white;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-.footer_content_info {
+.footer-content-info {
   grid-column: 2;
 }
 
-.footer_content_copyright {
+.footer-content-copyright {
   text-align: end;
   grid-column: 3;
 }
@@ -130,20 +130,20 @@
     padding: 10px 0px 10px;
   }
 
-  .main_containerBlog img {
+  .main-containerBlog img {
     padding: 0px 10px;
     width: 100%;
   }
   
-  .main_containerBlog_article {
+  .main-containerBlog-article {
     padding: 0px 10px 20px;
   }
   
-  .main_containerBlog_article h4 {
+  .main-containerBlog-article h4 {
     padding: 10px 0px;
   }
   
-  .main_containerBlog_article h1 {
+  .main-containerBlog-article h1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -153,17 +153,17 @@
     display: grid;
   }
   
-  .contactSection_ways {
+  .contactSection-ways {
     margin: 0px;
   }
   
-  .contactSection_ways img {
+  .contactSection-ways img {
     padding: 10px;
     width: 75px;
     height: 75px;
   }
   
-  .contactSection_ways_info {
+  .contactSection-ways-info {
     padding: 5px 0px;
     width: 100%;
   }
@@ -174,19 +174,19 @@
     border-top: 25px solid #e6162e;
   }
   
-  .footer_content {
+  .footer-content {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-  .footer_content_info {
+  .footer-content-info {
     text-align: center;
     align-self: center;
     grid-column: 1;
   }
   
-  .footer_content_copyright {
+  .footer-content-copyright {
     align-self: center;
     text-align: center;
     grid-column: 2;
@@ -201,20 +201,20 @@
     padding: 10px 0px 10px;
   }
 
-  .main_containerBlog img {
+  .main-containerBlog img {
     padding: 0px 10px;
     width: 100%;
   }
   
-  .main_containerBlog_article {
+  .main-containerBlog-article {
     padding: 0px 10px 20px;
   }
   
-  .main_containerBlog_article h4 {
+  .main-containerBlog-article h4 {
     padding: 10px 0px;
   }
   
-  .main_containerBlog_article h1 {
+  .main-containerBlog-article h1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -224,17 +224,17 @@
     display: grid;
   }
   
-  .contactSection_ways {
+  .contactSection-ways {
     margin: 0px;
   }
   
-  .contactSection_ways img {
+  .contactSection-ways img {
     padding: 10px;
     width: 75px;
     height: 75px;
   }
   
-  .contactSection_ways_info {
+  .contactSection-ways-info {
     padding: 5px 0px;
     width: 100%;
   }
@@ -245,19 +245,19 @@
     border-top: 25px solid #e6162e;
   }
   
-  .footer_content {
+  .footer-content {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-  .footer_content_info {
+  .footer-content-info {
     text-align: center;
     align-self: center;
     grid-column: 1;
   }
   
-  .footer_content_copyright {
+  .footer-content-copyright {
     align-self: center;
     text-align: center;
     grid-column: 2;
@@ -269,20 +269,20 @@
     padding: 10px 0px 10px;
   }
 
-  .main_containerBlog img {
+  .main-containerBlog img {
     padding: 0px 10px;
     width: 100%;
   }
   
-  .main_containerBlog_article {
+  .main-containerBlog-article {
     padding: 0px 10px 20px;
   }
   
-  .main_containerBlog_article h4 {
+  .main-containerBlog-article h4 {
     padding: 10px 0px;
   }
   
-  .main_containerBlog_article h1 {
+  .main-containerBlog-article h1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -292,17 +292,17 @@
     display: grid;
   }
   
-  .contactSection_ways {
+  .contactSection-ways {
     margin: 0px;
   }
   
-  .contactSection_ways img {
+  .contactSection-ways img {
     padding: 10px;
     width: 75px;
     height: 75px;
   }
   
-  .contactSection_ways_info {
+  .contactSection-ways-info {
     padding: 5px 0px;
     width: 100%;
   }
@@ -313,19 +313,19 @@
     border-top: 25px solid #e6162e;
   }
   
-  .footer_content {
+  .footer-content {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-  .footer_content_info {
+  .footer-content-info {
     text-align: center;
     align-self: center;
     grid-column: 1;
   }
   
-  .footer_content_copyright {
+  .footer-content-copyright {
     align-self: center;
     text-align: center;
     grid-column: 2;
@@ -352,20 +352,20 @@
     padding: 10px 0px 10px;
   }
 
-  .main_containerBlog img {
+  .main-containerBlog img {
     padding: 0px 10px;
     width: 100%;
   }
   
-  .main_containerBlog_article {
+  .main-containerBlog-article {
     padding: 0px 10px 20px;
   }
   
-  .main_containerBlog_article h4 {
+  .main-containerBlog-article h4 {
     padding: 10px 0px;
   }
   
-  .main_containerBlog_article h1 {
+  .main-containerBlog-article h1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -375,17 +375,17 @@
     display: grid;
   }
   
-  .contactSection_ways {
+  .contactSection-ways {
     margin: 0px;
   }
   
-  .contactSection_ways img {
+  .contactSection-ways img {
     padding: 10px;
     width: 75px;
     height: 75px;
   }
   
-  .contactSection_ways_info {
+  .contactSection-ways-info {
     padding: 5px 0px;
     width: 100%;
   }
@@ -396,19 +396,19 @@
     border-top: 25px solid #e6162e;
   }
   
-  .footer_content {
+  .footer-content {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-  .footer_content_info {
+  .footer-content-info {
     text-align: center;
     align-self: center;
     grid-column: 1;
   }
   
-  .footer_content_copyright {
+  .footer-content-copyright {
     align-self: center;
     text-align: center;
     grid-column: 2;
@@ -420,20 +420,20 @@
     padding: 10px 0px 10px;
   }
 
-  .main_containerBlog img {
+  .main-containerBlog img {
     padding: 0px 10px;
     width: 100%;
   }
   
-  .main_containerBlog_article {
+  .main-containerBlog-article {
     padding: 0px 10px 20px;
   }
   
-  .main_containerBlog_article h4 {
+  .main-containerBlog-article h4 {
     padding: 10px 0px;
   }
   
-  .main_containerBlog_article h1 {
+  .main-containerBlog-article h1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -443,17 +443,17 @@
     display: grid;
   }
   
-  .contactSection_ways {
+  .contactSection-ways {
     margin: 0px;
   }
   
-  .contactSection_ways img {
+  .contactSection-ways img {
     padding: 10px;
     width: 75px;
     height: 75px;
   }
   
-  .contactSection_ways_info {
+  .contactSection-ways-info {
     padding: 5px 0px;
     width: 100%;
   }
@@ -464,19 +464,19 @@
     border-top: 25px solid #e6162e;
   }
   
-  .footer_content {
+  .footer-content {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-  .footer_content_info {
+  .footer-content-info {
     text-align: center;
     align-self: center;
     grid-column: 1;
   }
   
-  .footer_content_copyright {
+  .footer-content-copyright {
     align-self: center;
     text-align: center;
     grid-column: 2;

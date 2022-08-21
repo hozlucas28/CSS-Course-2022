@@ -1,11 +1,10 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
-body { /* Todos los elementos de la página */
-    font-family: sans-serif; /* Tipografía */
-    background-color: green; /* Fondo */
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
 }
 
 
@@ -14,8 +13,20 @@ body { /* Todos los elementos de la página */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-h1 { /* Etiquetas h1 */
-    font-size:  20px; /* Tamaño */
-    text-align: center; /* Alineación */
-    color: blue; /* Color */
+/* Elementos de Tipo Bloque */
+h1, p, div {
+    padding: 10px;
+    width: 500px;
+    display: inline-block; /* Determina que sean interpretados como elementos de línea y bloque*/
+    background-color: #CCC;
+}
+
+
+/* Elementos de Tipo Línea */
+a {
+    padding: 10px;
+    height: 50px;
+    color: #ffff;
+    display: inline-block;
+    background-color: #000;
 }
