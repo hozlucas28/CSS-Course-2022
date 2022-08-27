@@ -30,7 +30,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   background-size: cover;
-  background-image: url('../img/cover.png'); /* "../" vuelve a la carpeta anterior */
+  background-image: url('../Img/cover.png'); /* "../" vuelve a la carpeta anterior */
   background-repeat: no-repeat;
   background-position: center;
 }
