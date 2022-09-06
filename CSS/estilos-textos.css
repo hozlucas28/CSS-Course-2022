@@ -26,7 +26,7 @@ p {
     font-weight: bold; /* Negrita */
     text-align: justify; /* Alineación justificada */
     text-indent: 40px; /* Identación */
-    text-transform: lowercase; /* Texto del parrafo en minúsculas */
+    text-transform: lowercase; /* Texto del párrafo en minúsculas */
     text-shadow: 4px 3px 2px rgba(65, 105, 225, 0.5); /* Sombra [→, ↓, opacidad] */
 }
 
