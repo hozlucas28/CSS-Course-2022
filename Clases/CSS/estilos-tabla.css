@@ -1,37 +1,37 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
 body {
-    font-family: Arial;
+	font-family: Arial;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-table, th, td {
-    border: 1px solid black;
+table,
+th,
+td {
+	border: 1px solid black;
 }
 
 table {
-    width: 500px;
-    text-align: center;
-    border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+	border-collapse: collapse;
 }
 
-th, td {
-    padding: 10px;
+th,
+td {
+	padding: 10px;
 }
 
 th {
-    color: white;
-    background-color: rgba(0, 0, 255, 0.75);
+	color: white;
+	background-color: rgba(0, 0, 255, 0.75);
 }
 
 tr:hover {
-    background-color: rgba(0, 0, 255, 0.25);
+	background-color: rgba(0, 0, 255, 0.25);
 }

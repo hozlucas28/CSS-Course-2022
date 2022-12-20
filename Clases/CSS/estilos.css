@@ -1,21 +1,20 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
-body { /* Todos los elementos de la página */
-    font-family: sans-serif; /* Tipografía */
-    background-color: green; /* Fondo */
+body {
+	/* Todos los elementos de la página */
+	font-family: sans-serif; /* Tipografía */
+	background-color: green; /* Fondo */
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-h1 { /* Etiquetas h1 */
-    font-size:  20px; /* Tamaño */
-    text-align: center; /* Alineación */
-    color: blue; /* Color */
+h1 {
+	/* Etiquetas h1 */
+	font-size: 20px; /* Tamaño */
+	text-align: center; /* Alineación */
+	color: blue; /* Color */
 }

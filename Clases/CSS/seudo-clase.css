@@ -1,18 +1,17 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                 ENCABEZADO                                 */
 /* -------------------------------------------------------------------------- */
 
 .menu {
-    background-color: #13a4a4;
+	background-color: #13a4a4;
 }
 
 .menu-nav {
-    list-style: none; /* Modifica el estilo de la lista */
+	list-style: none; /* Modifica el estilo de la lista */
 }
 
 .menu-nav-item {
-    display: inline-block; /* Transforma la lista en una fila */
+	display: inline-block; /* Transforma la lista en una fila */
 }
 
 /*-----------------------------------------------
@@ -20,21 +19,24 @@
     se encuentran dentro de la misma.
 -----------------------------------------------*/
 
-.menu-nav-item a { 
-    color: white;
-    text-decoration: none; /* Elimina el estilo por defecto */
+.menu-nav-item a {
+	color: white;
+	text-decoration: none; /* Elimina el estilo por defecto */
 }
 
 /* Seudo Clases */
-.menu-nav-item a:active { /* Modifica el color al clickear */
-    color: chartreuse; 
+.menu-nav-item a:active {
+	/* Modifica el color al clickear */
+	color: chartreuse;
 }
 
-.menu-nav-item a:hover { /* Modifica el color al pasar por encima */
-    color: red;
+.menu-nav-item a:hover {
+	/* Modifica el color al pasar por encima */
+	color: red;
 }
 
 /* Seudo Elementos */
-.menu-nav-item a::after { /* Agrega un texto luego de cada elemento */
-    content: " | "; 
+.menu-nav-item a::after {
+	/* Agrega un texto luego de cada elemento */
+	content: ' | ';
 }

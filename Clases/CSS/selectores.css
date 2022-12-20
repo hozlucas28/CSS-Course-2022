@@ -1,23 +1,21 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
-body { /* Modifica todos los elementos de la caja */
-    color: blue;
+body {
+	/* Modifica todos los elementos de la caja */
+	color: blue;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-h1, h2 { /* Modifica más de un elemento */
-    color: red;
+h1,
+h2 {
+	/* Modifica más de un elemento */
+	color: red;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                             CONTENIDO PRINCIPAL                            */
@@ -29,7 +27,7 @@ h1, h2 { /* Modifica más de un elemento */
 ---------------------------------------------------------*/
 
 #Subtittle {
-    color: aqua;
+	color: aqua;
 }
 
 /*---------------------------------------------------------
@@ -37,14 +35,11 @@ h1, h2 { /* Modifica más de un elemento */
     - El elemento puede tener más de una clase asignada.
 ---------------------------------------------------------*/
 
-.p1 { 
-    color: brown;
+.p1 {
+	color: brown;
 }
 
 .p2 {
-    font-size: 24px;
-    color: purple;
+	font-size: 24px;
+	color: purple;
 }
-
-
-

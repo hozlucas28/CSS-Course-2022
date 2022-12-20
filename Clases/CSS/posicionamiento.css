@@ -1,35 +1,32 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
 * {
-    padding: 0px;
-    margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                             CONTENIDO PRINCIPAL                            */
 /* -------------------------------------------------------------------------- */
 
 .box {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-    background-color: royalblue;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	background-color: royalblue;
 }
 
 .box-parent {
-    margin: 20px;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    background-color: lightseagreen;
+	margin: 20px;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	background-color: lightseagreen;
 }
 
 .position {
-    position: absolute;
-    background-color: lightcoral;
+	position: absolute;
+	background-color: lightcoral;
 }

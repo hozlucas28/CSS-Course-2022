@@ -1,241 +1,231 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                IMPORTACIONES                               */
 /* -------------------------------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
-
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto Mono', sans-serif; /* Si no funciona "Roboto Mono" utilizar "Sans-Serif" */
+	font-family: 'Roboto Mono', sans-serif; /* Si no funciona "Roboto Mono" utilizar "Sans-Serif" */
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                 ENCABEZADO                                 */
 /* -------------------------------------------------------------------------- */
 
 .header {
-  width: 100%;
-  height: 140px;
-  display: grid; /* Divide los elementos hijo en una tabla */
-  grid-template-rows: 1fr 1fr; /* Cantidad de filas de la tabla */
+	width: 100%;
+	height: 140px;
+	display: grid; /* Divide los elementos hijo en una tabla */
+	grid-template-rows: 1fr 1fr; /* Cantidad de filas de la tabla */
 }
-
 
 /* ----------------------------- Redes Sociales ----------------------------- */
 
 .header-containerSocialMedia {
-  width: 100%;
-  height: 50px;
-  display: grid;
-  background-color: #e6162e; /* Pinta la fila completa del contenedor */
+	width: 100%;
+	height: 50px;
+	display: grid;
+	background-color: #e6162e; /* Pinta la fila completa del contenedor */
 }
 
 .header-containerSocialMedia-icons {
-  margin-right: 50px;
-  width: 250px;
-  height: auto;
-  display: flex; /* Indica que se va a utilizar "Flexboxs" en el elemento padre */
-  align-items: center;
-  justify-self: end; /* Alineación del elemento padre */
-  justify-content: space-between; /* Alineación entre elementos hijo */
+	margin-right: 50px;
+	width: 250px;
+	height: auto;
+	display: flex; /* Indica que se va a utilizar "Flexboxs" en el elemento padre */
+	align-items: center;
+	justify-self: end; /* Alineación del elemento padre */
+	justify-content: space-between; /* Alineación entre elementos hijo */
 }
 
 .header-containerSocialMedia-icons a {
-  color: white;
-  font-size: 28px;
+	color: white;
+	font-size: 28px;
 }
 
 .header-containerSocialMedia-icons a:hover {
-  color: #616161;
+	color: #616161;
 }
-
 
 /* --------------------------- Menú de Navegación --------------------------- */
 
 .header-containerNav {
-  height: 90px;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Cantidad de columnas de la tabla */
+	height: 90px;
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Cantidad de columnas de la tabla */
 }
 
 .header-containerNav-homeLogo {
-  margin-left: 50px;
-  display: flex;
-  align-items: center;
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
 }
 
 .header-containerNav-profile {
-  margin-right: 50px;
-  display: flex;
-  align-items: center;
-  justify-self: end;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+	justify-self: end;
 }
 
 .header-containerNav-profile a {
-  color: black;
-  border-bottom: 1px solid black;
-  text-decoration: none;
+	color: black;
+	border-bottom: 1px solid black;
+	text-decoration: none;
 }
 
 .header-containerNav-profile a:hover {
-  opacity: 0.5;
+	opacity: 0.5;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                              DISEÑO RESPONSIVO                             */
 /* -------------------------------------------------------------------------- */
 
-
 @media screen and (max-width: 1368px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 50%;
-  }
+	.header-containerNav-homeLogo img {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 1180px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 50%;
-  }
+	.header-containerNav-homeLogo img {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 915px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 50%;
-  }
+	.header-containerNav-homeLogo img {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 896px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 50%;
-  }
+	.header-containerNav-homeLogo img {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 667px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 125px;
-  }
+	.header-containerNav-homeLogo img {
+		width: 125px;
+	}
 }
 
 @media screen and (max-width: 375px) {
-  .header {
-    height: 100px;
-  }
+	.header {
+		height: 100px;
+	}
 
-  .header-containerSocialMedia-icons {
-    justify-self: center;
-    margin-right: 0px;
-  }
+	.header-containerSocialMedia-icons {
+		justify-self: center;
+		margin-right: 0px;
+	}
 
-  .header-containerNav {
-    height: 50px;
-  }
+	.header-containerNav {
+		height: 50px;
+	}
 
-  .header-containerNav-homeLogo {
-    margin: 5px 0px 5px 5px;
-  }
+	.header-containerNav-homeLogo {
+		margin: 5px 0px 5px 5px;
+	}
 
-  .header-containerNav-homeLogo img {
-    width: 75%;
-  }
+	.header-containerNav-homeLogo img {
+		width: 75%;
+	}
 }
